@@ -1,0 +1,4135 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* itsys_real_estate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-26 01:47+0000\n"
+"PO-Revision-Date: 2021-09-26 16:08-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_ES\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: itsys_real_estate
+#: model:mail.template,body_html:itsys_real_estate.email_template_installment_notification
+msgid ""
+"\n"
+"Dear ${object.contract_partner_id.name},\n"
+"\n"
+"We would like to remind you with installment payment ${object.amount} due in ${object.date}\n"
+"\n"
+"Regarding property # ${object.contract_building_unit.code}\n"
+"\n"
+"\n"
+"Thanks and best regards,\n"
+"\n"
+"${object.company_id.name}\n"
+"\n"
+msgstr ""
+"\n"
+"Dear ${object.contract_partner_id.name},\n"
+"\n"
+"We would like to remind you with installment payment ${object.amount} due in ${object.date}\n"
+"\n"
+"Regarding property # ${object.contract_building_unit.code}\n"
+"\n"
+"\n"
+"Thanks and best regards,\n"
+"\n"
+"${object.company_id.name}\n"
+"\n"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_no_of_floors
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_no_of_floors
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_no_of_floors
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+msgid "# Floors"
+msgstr "# Suelos"
+
+#. module: itsys_real_estate
+#: model:mail.template,subject:itsys_real_estate.email_template_installment_notification
+msgid "${object.company_id.name} - Installment reminder"
+msgstr "${object.company_id.name} - Installment reminder"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.website_multiple_image_product_slider
+msgid ""
+"30-day money-back guarantee<br/>\n"
+"                                  Free Shipping in U.S.<br/>\n"
+"                                  Buy now, get in 2 days"
+msgstr ""
+"30-day money-back guarantee<br/>\n"
+"                                  Free Shipping in U.S.<br/>\n"
+"                                  Buy now, get in 2 days"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_account
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_account
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_account
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties_account
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_account_move
+msgid "Account Entry"
+msgstr "Asiento Contable"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_account_voucher
+msgid "Accounting Voucher"
+msgstr "Accounting Voucher"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_active
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_biztech_product_images
+msgid "Add Multiple Image in Product"
+msgstr "Add Multiple Image in Product"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_multi_image
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_multi_image
+msgid "Add Multiple Images?"
+msgstr "Add Multiple Images?"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.website_multiple_image_product_slider
+msgid "Add to Cart"
+msgstr "Añadir al carrito"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_base_pages_form
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+msgid "Additional Information"
+msgstr "Información adicional"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_address
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_address
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_address
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_address
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_address
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_address
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_address
+msgid "Address"
+msgstr "Dirección"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Address:"
+msgstr "Address:"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/ownership_contract.py:239
+#: code:addons/itsys_real_estate/models/ownership_contract.py:372
+#: code:addons/itsys_real_estate/models/unit_reservation.py:201
+#, python-format
+msgid "Advance Payment"
+msgstr "Pago por adelantado"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_adv_payment_rate
+msgid "Advance Payment %"
+msgstr "Advance Payment %"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_air_condition
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_air_condition
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_air_condition
+msgid "Air Condition"
+msgstr "Air Condition"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_alarm
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_alarm
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_alarm
+msgid "Alarm"
+msgstr "Alarm"
+
+#. module: itsys_real_estate
+#. openerp-web
+#: code:addons/itsys_real_estate/static/src/xml/image_multi.xml:43
+#, python-format
+msgid "All Image"
+msgstr "All Image"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_alt
+msgid "Alt"
+msgstr "Alt"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_amount
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_amount
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_amount
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Amount"
+msgstr "Importe"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Analytic"
+msgstr "Analítico"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_account_analytic_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_account_analytic_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_account_analytic_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_default_analytic_account
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_account_analytic_id
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Analytic Account used in contracts"
+msgstr "Analytic Account used in contracts"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_annual_raise
+msgid "Annual Raise %"
+msgstr "Annual Raise %"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_apply_to
+msgid "Apply to"
+msgstr "Apply to"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Area:"
+msgstr "Area:"
+
+#. module: itsys_real_estate
+#: model:ir.actions.server,name:itsys_real_estate.auto_cancel_reservation_sync_ir_actions_server
+#: model:ir.cron,cron_name:itsys_real_estate.auto_cancel_reservation_sync
+#: model:ir.cron,name:itsys_real_estate.auto_cancel_reservation_sync
+msgid "Auto Cancel Unit Reservation"
+msgstr "Reserva de unidad de cancelación automática"
+
+#. module: itsys_real_estate
+#: selection:website,color_opt_thumbnail:0
+msgid "B/W"
+msgstr "B/W"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_balance
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_balance
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_unpaid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_unpaid
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Balance"
+msgstr "Saldo"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_balcony
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_balcony
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_balcony
+msgid "Balconies m²"
+msgstr "Balconies m²"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "Bank Statement"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_base_pages_form
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+msgid "Basic Information"
+msgstr "Basic Information"
+
+#. module: itsys_real_estate
+#: selection:product.template,state:0
+msgid "Bloqueado"
+msgstr "Bloqueado"
+
+#. module: itsys_real_estate
+#: selection:website,color_opt_thumbnail:0
+msgid "Blur"
+msgstr "Blur"
+
+#. module: itsys_real_estate
+#: selection:website,thumbnail_panel_position:0
+msgid "Bottom"
+msgstr "Bottom"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.building_act1
+#: model:ir.model,name:itsys_real_estate.model_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_contract_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_contract_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_contract_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_building_ids
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_building_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_building_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_contract_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_contract_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_building
+#: model:ir.ui.menu,name:itsys_real_estate.menu_building_list_sub
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_list
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs_rent
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_list
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_release_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+msgid "Building"
+msgstr "Terreno"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_building_area
+msgid "Building Area m²"
+msgstr "Área de Propiedad m²"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.building_desc_form_action
+#: model:ir.ui.menu,name:itsys_real_estate.menu_building_desc_form_action
+msgid "Building Description"
+msgstr " Description"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Building Specifications:"
+msgstr " Specifications:"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.building_status_form_action
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_status
+#: model:ir.ui.menu,name:itsys_real_estate.menu_building_status_form_action
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_status_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_status_tree_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_type_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_type_tree_view
+msgid "Building Status"
+msgstr " Status"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.building_type_form_action
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_type
+#: model:ir.ui.menu,name:itsys_real_estate.menu_building_type_form_action
+msgid "Building Type"
+msgstr " Type"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Building Type:"
+msgstr " Type:"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.building_unit_act1
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_contract_building_unit
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_contract_building_unit
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_contract_building_unit
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_unit_ids
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_building_unit
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_building_unit
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_building_unit
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_building_unit
+#: model:ir.ui.menu,name:itsys_real_estate.menu_building_list_sub_unit
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_release_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_form_view
+msgid "Building Unit"
+msgstr "Lote Unidad"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_building_area
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_building_area
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_building_area
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_building_area
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_building_area
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_building_area
+msgid "Building Unit Area m²"
+msgstr " Unit Area m²"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.component_form_action
+#: model:ir.ui.menu,name:itsys_real_estate.menu_component_form_action
+msgid "Building Unit Component"
+msgstr " Unit Component"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_release_form_view
+msgid "Building Unit Release"
+msgstr " Unit Release"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_release_tree_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_tree_view
+msgid "Building Unit Reservation"
+msgstr "Lotes Reservación"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_status
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_status
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_status
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_status
+msgid "Building Unit Status"
+msgstr "Estado del lote  en el terreno"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_type
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_ptype
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_ptype
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_type
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_type
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_type
+msgid "Building Unit Type"
+msgstr "Tipo de lote"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_components_line_unit_id
+msgid "Building Unit View"
+msgstr " Unit View"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_empty_units_check
+msgid "Building Units Status"
+msgstr " Units Status"
+
+#. module: itsys_real_estate
+#: sql_constraint:building:0
+msgid "Building code must be unique!"
+msgstr " code must be unique!"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_desc_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_desc_tree_view
+msgid "Building desc"
+msgstr " desc"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Building:"
+msgstr "Terreno:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Buyer:"
+msgstr "Buyer:"
+
+#. module: itsys_real_estate
+#: selection:sale.commission,commission_type:0
+msgid "By sections"
+msgstr "By sections"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_tv_cable
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_tv_cable
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_tv_cable
+msgid "Cable TV"
+msgstr "Cable TV"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_payment_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_refund_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_rental_payment_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_rental_renew_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.due_payment_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.late_payment_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.late_payment_unit_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.occupancy_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.salesperson_sales_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_due_payment_units_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: itsys_real_estate
+#: selection:ownership.contract,state:0 selection:rental.contract,state:0
+#: selection:report.ownership.contract.bi,state:0
+#: selection:report.rental.contract.bi,state:0
+#: selection:unit.reservation,state:0
+msgid "Canceled"
+msgstr "Canceled"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_carport
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_carport
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_carport
+msgid "Carport included"
+msgstr "Carport included"
+
+#. module: itsys_real_estate
+#: selection:customer.payment.check,payment_method:0
+#: selection:customer.payment.refund,payment_method:0
+#: selection:customer.rental.payment.check,payment_method:0
+msgid "Cash"
+msgstr "Cash"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_category
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_category
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_category
+msgid "Category"
+msgstr "Categoría"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_change_thumbnail_size
+#: model:ir.model.fields,field_description:itsys_real_estate.field_website_change_thumbnail_size
+msgid "Change thumbnail size"
+msgstr "Change thumbnail size"
+
+#. module: itsys_real_estate
+#: selection:customer.payment.check,payment_method:0
+#: selection:customer.payment.refund,payment_method:0
+#: selection:customer.rental.payment.check,payment_method:0
+msgid "Cheque"
+msgstr "Cheques"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.cities_form_action
+#: model:ir.ui.menu,name:itsys_real_estate.menu_cities_form_action
+#: model:ir.ui.view,arch_db:itsys_real_estate.cities_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.cities_tree_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_cities_search
+msgid "Cities"
+msgstr "Cities"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_cities
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_city
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_city_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_city_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_contract_city
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_city_ids
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_city
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_city
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_city_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_city
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_city_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_city_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_city
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_contract_city
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_contract_city
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_city
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_city
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_regions_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+msgid "City"
+msgstr "Ciudad"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.cities_type_form_action
+#: model:ir.ui.menu,name:itsys_real_estate.menu_cities_type_form_action
+msgid "City Type"
+msgstr "City Type"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.cities_type_form_view
+msgid "City type"
+msgstr "City type"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "City:"
+msgstr "City:"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.action_partner_form_custom
+msgid "Click to add a contact in your address book."
+msgstr "Pulse aquí para agregar un contacto en su directorio."
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.building_desc_form_action
+msgid "Click to add a new Building Description"
+msgstr "Click to add a new  Description"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.building_status_form_action
+#: model:ir.actions.act_window,help:itsys_real_estate.building_type_form_action
+msgid "Click to add a new Building Type"
+msgstr "Click to add a new  Type"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.component_form_action
+msgid "Click to add a new Building Unit Component"
+msgstr "Click to add a new  Unit Component"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.unit_release_form_action
+msgid "Click to add a new Building Unit Release"
+msgstr "Click to add a new  Unit Release"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.unit_reservation_form_action
+msgid "Click to add a new Building Unit Reservation"
+msgstr "Haga clic para agregar una nueva reserva de unidad"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.ownership_contract_form_action
+msgid "Click to add a new Ownership Contract"
+msgstr "Click to add a new Ownership Contract"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.cities_form_action
+msgid "Click to add a new city"
+msgstr "Click to add a new city"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.cities_type_form_action
+msgid "Click to add a new city type"
+msgstr "Click to add a new city type"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.countries_form_action
+msgid "Click to add a new country"
+msgstr "Click to add a new country"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.installment_template_form_action
+msgid "Click to add a new installment template"
+msgstr "Click to add a new installment template"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.regions_form_action
+msgid "Click to add a new region"
+msgstr "Click to add a new region"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.rental_contract_form_action
+msgid "Click to add a new rental Contract"
+msgstr "Click to add a new rental Contract"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,help:itsys_real_estate.furniture_product
+msgid "Click to create a new furniture item."
+msgstr "Click to create a new furniture item."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_building_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_unit_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_building_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_unit_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_building_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_unit_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_building_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_unit_code
+msgid "Code"
+msgstr "Código"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Code:"
+msgstr "Code:"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_due_payment_check
+msgid "Collections for Partners"
+msgstr "Collections for Partners"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_due_payment_unit_check
+msgid "Collections for Units"
+msgstr "Collections for Units"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_commission
+#: model:ir.ui.menu,name:itsys_real_estate.menu_sale_commissions
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_users_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.sale_commission_form
+msgid "Commission"
+msgstr "Commission"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_commission_line
+msgid "Commission Line"
+msgstr "Commission Line"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_commission_lines
+#: model:ir.ui.menu,name:itsys_real_estate.menu_sale_commissions_lines
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_users_form_view
+msgid "Commission Lines"
+msgstr "Commission Lines"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.menu_sale_commissions_types
+msgid "Commission Types"
+msgstr "Commission Types"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_sale_commission
+msgid "Commission in sales"
+msgstr "Commission in sales"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_commission_line
+msgid "Commission line"
+msgstr "Commission line"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_sale_commission_section
+msgid "Commission section"
+msgstr "Commission section"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_commission
+msgid "Commission types"
+msgstr "Commission types"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_commission_total
+#: model:ir.ui.view,arch_db:itsys_real_estate.sale_commission_line_tree
+#: model:ir.ui.view,arch_db:itsys_real_estate.sale_commission_tree
+msgid "Commissions"
+msgstr "Commissions"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_res_company
+msgid "Companies"
+msgstr "Companies"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Company:"
+msgstr "Company:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_furniture_component_id
+msgid "Component View"
+msgstr "Component View"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_components_line_component
+msgid "Components"
+msgstr "Components"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_component_ids
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_component_ids
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+msgid "Components List"
+msgstr "Components List"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_release_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_form_view
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+#: selection:ownership.contract,state:0 selection:rental.contract,state:0
+#: selection:report.ownership.contract.bi,state:0
+#: selection:report.rental.contract.bi,state:0 selection:unit.release,state:0
+#: selection:unit.reservation,state:0
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_constructed
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_constructed
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_constructed
+msgid "Construction Year"
+msgstr "Valor m²"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_contacts
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_contacts
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_child_ids
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_child_ids
+msgid "Contains"
+msgstr "Contiene"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_commission
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_name
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_form_view
+msgid "Contract"
+msgstr "Contract"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_contract_id
+msgid "Contract "
+msgstr "Contract "
+
+#. module: itsys_real_estate
+#: selection:sale.commission,contract_state:0
+msgid "Contract Based"
+msgstr "Contract Based"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_contract_count
+msgid "Contract Count"
+msgstr "Contract Count"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_contract_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_contract_date
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Contract Date"
+msgstr "Contract Date"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+msgid "Contract Ref"
+msgstr "Contract Ref"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_contract_state
+msgid "Contract Status"
+msgstr "Contract Status"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Contract Total"
+msgstr "Contract Total"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/rental_contract.py:187
+#: code:addons/itsys_real_estate/wizard/rental_contract_renewal.py:14
+#, python-format
+msgid "Contract start date must be less than contract end date."
+msgstr "Contract start date must be less than contract end date."
+
+#. module: itsys_real_estate
+#: selection:unit.release,state:0 selection:unit.reservation,state:0
+msgid "Contracted"
+msgstr "Contratado"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.menu_contracts_main
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_own_contract_graph
+msgid "Contracts"
+msgstr "Contracts"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Contracts Income Account"
+msgstr "Contracts Income Account"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_form_view
+msgid "Convert to Contract"
+msgstr "Convert to Contract"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_cnt
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_cnt
+msgid "Count"
+msgstr "Count"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.countries_form_action
+#: model:ir.ui.menu,name:itsys_real_estate.menu_countries_form_action
+msgid "Countries"
+msgstr "Países"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_countries
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_country_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_country_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_contract_country
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_country
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_country_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_country_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_country_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_country
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_contract_country
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_contract_country
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_country_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_country
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_cities_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_regions_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+msgid "Country"
+msgstr "País"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries_name
+msgid "Country Name"
+msgstr "Nombre del país"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Country:"
+msgstr "Country:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_biztech_product_images_cover_image
+msgid "Cover Image will be show untill video is loaded."
+msgstr "Cover Image will be show untill video is loaded."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_cover_image
+msgid "Cover image"
+msgstr "Cover image"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_desc_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_status_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_type_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_type_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_component_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_components_line_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_rs_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_furniture_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_gmap_config_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_rent_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_renewal_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sms_wizard_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_create_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_desc_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_status_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_type_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_type_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_component_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_components_line_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_rs_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_furniture_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_gmap_config_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_rent_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_renewal_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sms_wizard_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_create_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_customer_payment_check
+msgid "Customer Payment"
+msgstr "Customer Payment"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_customer_payment_refund
+msgid "Customer Refund"
+msgstr "Customer Refund"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_partner_form_custom
+#: model:ir.ui.menu,name:itsys_real_estate.menu_res_partners_real_estate
+msgid "Customers"
+msgstr "Clientes"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+msgid "Customers Due Payments"
+msgstr "Customers Due Payments"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+msgid "Customers Late Payments"
+msgstr "Customers Late Payments"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_date
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs_rent
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+msgid "Date"
+msgstr "Fecha"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_date_added
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_date_added
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_date_added
+msgid "Date Added to Notarization"
+msgstr "Date Added to Notarization"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Date From:"
+msgstr "Date From:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Date To:"
+msgstr "Date To:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Date:"
+msgstr "Date:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_deduct
+msgid "Deducted from amount?"
+msgstr "Deducted from amount?"
+
+#. module: itsys_real_estate
+#: selection:website,color_opt_thumbnail:0
+msgid "Default"
+msgstr "Default"
+
+#. module: itsys_real_estate
+#. openerp-web
+#: code:addons/itsys_real_estate/static/src/xml/image_multi.xml:12
+#, python-format
+msgid "Delete Image"
+msgstr "Delete Image"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_description
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_desc
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_desc
+msgid "Description"
+msgstr "Descripción"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Details of Sales"
+msgstr "Details of Sales"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_discount_percent_total
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_discount_percent_total
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_discount_percent
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_discount_percent
+msgid "Discount %"
+msgstr "Discount %"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_discount_cash_total
+msgid "Discount (Amt.)"
+msgstr "Discount (Amt.)"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_discount_cash_total
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_discount_cash
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_discount_cash
+msgid "Discount (Amt.) "
+msgstr "Discount (Amt.) "
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_account
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_default_discount_account
+msgid "Discount Account"
+msgstr "Discount Account"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Discounts"
+msgstr "Discounts"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Discounts &amp; Penalties"
+msgstr "Discounts &amp; Penalties"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_desc_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_status_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_type_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_type_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_component_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_components_line_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_rs_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_furniture_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_gmap_config_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_rent_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_renewal_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_due_payments_customers_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_due_payments_units_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_late_payments_customers_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_late_payments_units_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_occupancy_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_sales_rep_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sms_wizard_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_display_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: itsys_real_estate
+#: selection:building,heating_source:0
+#: selection:product.template,heating_source:0
+msgid "District Heating"
+msgstr "District Heating"
+
+#. module: itsys_real_estate
+#: selection:ownership.contract,state:0 selection:rental.contract,state:0
+#: selection:report.ownership.contract.bi,state:0
+#: selection:report.rental.contract.bi,state:0 selection:unit.release,state:0
+#: selection:unit.reservation,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_due_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_due_date
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Due Date"
+msgstr "Fecha de Vencimiento"
+
+#. module: itsys_real_estate
+#: model:ir.actions.report,name:itsys_real_estate.due_payments_customers
+msgid "Due Payments / Customers"
+msgstr "Due Payments / Customers"
+
+#. module: itsys_real_estate
+#: model:ir.actions.report,name:itsys_real_estate.due_payments_units
+msgid "Due Payments / Units"
+msgstr "Due Payments / Units"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.due_payment_menu
+msgid "Due Payments for Partners"
+msgstr "Due Payments for Partners"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.due_payment_unit_menu
+msgid "Due Payments for Units"
+msgstr "Due Payments for Units"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs_rent
+msgid "Due in 7 days"
+msgstr "Due in 7 days"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_east
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_east
+msgid "Eastern border  by:"
+msgstr "Limita Oriente con :"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_east
+msgid "Eastern border  by: "
+msgstr "Limita el Oriente con:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Eastern border :"
+msgstr "Limita el Occidente con:"
+
+#. module: itsys_real_estate
+#: selection:building,heating_source:0
+#: selection:product.template,heating_source:0
+msgid "Electricity"
+msgstr "Electricity"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Electricity Meter:"
+msgstr "Electricity Meter:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_electricity_meter
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_electricity_meter
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_electricity_meter
+msgid "Electricity meter"
+msgstr "Electricity meter"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_enable_disable_text
+#: model:ir.model.fields,field_description:itsys_real_estate.field_website_enable_disable_text
+msgid "Enable the text panel"
+msgstr "Enable the text panel"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_res_config_settings_enable_disable_text
+#: model:ir.model.fields,help:itsys_real_estate.field_website_enable_disable_text
+msgid "Enable/Disable text which is visible on the image in multi image."
+msgstr "Enable/Disable text which is visible on the image in multi image."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_entry_count
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_entry_count
+msgid "Entry Count"
+msgstr "Entry Count"
+
+#. module: itsys_real_estate
+#: sql_constraint:unit.release:0
+msgid "Error ! Can not release to same partner"
+msgstr "Error ! Can not release to same partner"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+msgid "Executed in duplicate, one copy per each party for necessary action"
+msgstr "Executed in duplicate, one copy per each party for necessary action"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_building_check
+msgid "Filter by building"
+msgstr "Filter by building"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_unit_check
+msgid "Filter by building unit"
+msgstr "Filter by building unit"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_city_check
+msgid "Filter by city"
+msgstr "Filter by city"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_region_check
+msgid "Filter by region"
+msgstr "Filter by region"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check_partner_ids
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check_partner_ids
+msgid "Filter on partner"
+msgstr "Filter on partner"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check_building_unit
+msgid "Filter on unit"
+msgstr "Filter on unit"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check_building_unit
+msgid "Filter on units"
+msgstr "Filter on units"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "First Party:"
+msgstr "First Party:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_date_payment
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_date_payment
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_date_payment
+msgid "First Payment Date"
+msgstr "Primera fecha de pago"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_fix_qty
+#: selection:sale.commission,commission_type:0
+msgid "Fixed percentage"
+msgstr "Fixed percentage"
+
+#. module: itsys_real_estate
+#: selection:building,usage:0 selection:product.template,usage:0
+msgid "Flat"
+msgstr "Flat"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_floor
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_floor
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_floor
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_floor
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_floor
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_floor
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_floor
+msgid "Floor"
+msgstr "Suelo"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Floor:"
+msgstr "Suelo:"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/report/parser_due_payment.py:36
+#: code:addons/itsys_real_estate/report/parser_due_payment_unit.py:44
+#: code:addons/itsys_real_estate/report/parser_late_payment.py:47
+#: code:addons/itsys_real_estate/report/parser_late_payment_unit.py:50
+#: code:addons/itsys_real_estate/report/parser_occupancy.py:95
+#: code:addons/itsys_real_estate/report/parser_salesperson.py:99
+#, python-format
+msgid "Form content is missing, this report cannot be printed."
+msgstr "Form content is missing, this report cannot be printed."
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+msgid "Free"
+msgstr "Libre"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check_date_start
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check_date_start
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check_date_start
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check_date_start
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_amount_from
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check_date_from
+msgid "From"
+msgstr "De"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_date_from
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_renewal_date_from
+msgid "From Date"
+msgstr "From Date"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+msgid "From:"
+msgstr "From:"
+
+#. module: itsys_real_estate
+#: selection:building,air_condition:0
+#: selection:product.template,air_condition:0
+msgid "Full"
+msgstr "Full"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_complete_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_complete_name
+msgid "Full Name"
+msgstr "Nombre completo"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_furniture_product_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_furniture
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_furniture
+msgid "Furniture"
+msgstr "Furniture"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_component_furniture_details_ids
+msgid "Furniture List"
+msgstr "Furniture List"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.component_form_view
+msgid "Furniture list"
+msgstr "Furniture list"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.furniture_product
+#: model:ir.ui.menu,name:itsys_real_estate.menu_furniture_form
+msgid "Furnitures"
+msgstr "Furnitures"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_garage
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_garage
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_garage
+msgid "Garage included"
+msgstr "Terrenos incluidos"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_garden
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_garden
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_garden
+msgid "Garden m²"
+msgstr "Garden m²"
+
+#. module: itsys_real_estate
+#: selection:building,heating_source:0
+#: selection:product.template,heating_source:0
+msgid "Gas"
+msgstr "Gas"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.sale_commission_form
+msgid "General information"
+msgstr "General information"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_release_form_view
+msgid "Generate Contract"
+msgstr "Generate Contract"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_base_pages_form
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+#: model:ir.ui.view,arch_db:itsys_real_estate.cities_form_view
+msgid "Geolocation"
+msgstr "Geolocation"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_cities_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_regions_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs_rent
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_filter
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_handicap
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_handicap
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_handicap
+msgid "Handicap Accessible"
+msgstr "Handicap Accessible"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_heating
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_heating
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_heating
+msgid "Heating"
+msgstr "Heating"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_heating_source
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_heating_source
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_heating_source
+msgid "Heating Source"
+msgstr "Heating Source"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_default_reservation_hours
+msgid "Hours to release units reservation"
+msgstr "Horas para liberar la reserva de unidades"
+
+#. module: itsys_real_estate
+#: selection:biztech.product.images,video_type:0
+msgid "Html5 Video"
+msgstr "Html5 Video"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+msgid "I, the undersigned, states that I have received the property, described by the following:"
+msgstr "I, the undersigned, states that I have received the property, described by the following:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_desc_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_status_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_type_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_type_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_component_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_components_line_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_rs_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_furniture_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_gmap_config_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_rent_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_renewal_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_due_payments_customers_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_due_payments_units_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_late_payments_customers_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_late_payments_units_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_occupancy_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_sales_rep_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sms_wizard_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_building_active
+msgid "If the active field is set to False, it will allow you to hide the top without removing it."
+msgstr "If the active field is set to False, it will allow you to hide the top without removing it."
+
+#. module: itsys_real_estate
+#: selection:biztech.product.images,attach_type:0
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_image
+msgid "Image"
+msgstr "Imagen"
+
+#. module: itsys_real_estate
+#. openerp-web
+#: code:addons/itsys_real_estate/static/src/xml/image_multi.xml:39
+#, python-format
+msgid "Image Preview"
+msgstr "Image Preview"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_images
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_images
+msgid "Images"
+msgstr "Imagenes"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_account_income
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_account_income
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_account_income
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_default_income_account
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_account_income
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Income Account"
+msgstr "Cuenta de ingresos"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+msgid "Installment"
+msgstr "Installment"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.installment_template_form_action
+#: model:ir.model,name:itsys_real_estate.model_installment_template
+#: model:ir.ui.menu,name:itsys_real_estate.menu_installment_template_form_action
+msgid "Installment Template"
+msgstr "Installment Template"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_payment_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_rental_payment_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_form_view
+msgid "Installments"
+msgstr "Coutas"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/rental_contract.py:324
+#, python-format
+msgid "Insurance Fee"
+msgstr "Insurance Fee"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_insurance_fee
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_insurance_fee
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_insurance_fee
+msgid "Insurance fee"
+msgstr "Insurance fee"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_internet
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_internet
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_internet
+msgid "Internet"
+msgstr "Internet"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/rental_contract.py:286
+#, python-format
+msgid "Invalid Rental Amount!"
+msgstr "Invalid Rental Amount!"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_unit_graph
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.biztech_form_view_for_biz_product_images
+msgid "It is required"
+msgstr "It is required"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_journal
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_journal
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_journal
+msgid "Journal"
+msgstr "Diario"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/ownership_contract.py:46
+#: code:addons/itsys_real_estate/models/rental_contract.py:135
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+#, python-format
+msgid "Journal Entries"
+msgstr "Asientos contables"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_land_area
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_land_area
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries_land_area
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_land_area
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_land_area
+msgid "Land Area m²"
+msgstr "Superficie del terreno m²"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_desc___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_status___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_type___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_type___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_component___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_components_line___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_rs___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_furniture___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_gmap_config___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_rent___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_renewal___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_due_payments_customers___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_due_payments_units___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_late_payments_customers___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_late_payments_units___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_occupancy___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_itsys_real_estate_report_sales_rep___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sms_wizard___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release___last_update
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_desc_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_status_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_type_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_type_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_component_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_components_line_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_rs_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_furniture_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_gmap_config_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_rent_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_renewal_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sms_wizard_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_write_uid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_desc_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_status_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_type_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_type_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_component_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_components_line_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_rs_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_furniture_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_gmap_config_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_rent_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_mail_wizard_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_renewal_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sms_wizard_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_write_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_latlng_ids
+msgid "LatLng List"
+msgstr "LatLng List"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_late_payment_check
+msgid "Late Collections for Partners"
+msgstr "Late Collections for Partners"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_late_payment_unit_check
+msgid "Late Collections for Units"
+msgstr "Late Collections for Units"
+
+#. module: itsys_real_estate
+#: model:ir.actions.report,name:itsys_real_estate.late_payments_customers
+msgid "Late Payments / Customers"
+msgstr "Late Payments / Customers"
+
+#. module: itsys_real_estate
+#: model:ir.actions.report,name:itsys_real_estate.late_payments_units
+msgid "Late Payments / Units"
+msgstr "Late Payments / Units"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_default_penalty_account
+msgid "Late Payments Penalty Account"
+msgstr "Late Payments Penalty Account"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.late_payment_menu
+msgid "Late Payments for Partners"
+msgstr "Late Payments for Partners"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.late_payment_unit_menu
+msgid "Late Payments for Units"
+msgstr "Late Payments for Units"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_lat
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_lat
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_lat
+msgid "Latitude"
+msgstr "Latitude"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_leader_fix_qty
+msgid "Leader Fixed percentage"
+msgstr "Leader Fixed percentage"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_leader_percent
+msgid "Leader Percent"
+msgstr "Leader Percent"
+
+#. module: itsys_real_estate
+#: selection:website,thumbnail_panel_position:0
+msgid "Left"
+msgstr "Left"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_parent_left
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_parent_left
+msgid "Left Parent"
+msgstr "Padre izquierdo"
+
+#. module: itsys_real_estate
+#: selection:product.template,state:0
+msgid "Libre"
+msgstr "Libre"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_license_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_license_code
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_license_code
+msgid "License Code"
+msgstr "License Code"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_license_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_license_date
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_license_date
+msgid "License Date"
+msgstr "License Date"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_license_location
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_license_location
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_license_location
+msgid "License Notarization"
+msgstr "License Notarization"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_lift
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_lift
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_lift
+msgid "Lift"
+msgstr "Vendido"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_biztech_product_images_video_mp4
+msgid "Link for mp4 format video"
+msgstr "Link for mp4 format video"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_biztech_product_images_video_ogv
+msgid "Link for ogv format video"
+msgstr "Link for ogv format video"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_biztech_product_images_video_webm
+msgid "Link for webm format video"
+msgstr "Link for webm format video"
+
+#. module: itsys_real_estate
+#. openerp-web
+#: code:addons/itsys_real_estate/static/src/xml/image_multi.xml:44
+#, python-format
+msgid "List All Image"
+msgstr "List All Image"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_loan_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_loan_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_loan_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_loan_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_loan_id
+msgid "Loan"
+msgstr "Loan"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/ownership_contract.py:246
+#: code:addons/itsys_real_estate/models/ownership_contract.py:379
+#: code:addons/itsys_real_estate/models/unit_reservation.py:208
+#, python-format
+msgid "Loan Installment"
+msgstr "Cuota del préstamo"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_loan_line
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_loan_line
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_loan_line
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_loan_line
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_loan_line
+msgid "Loan Line"
+msgstr "Loan Line"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_lng
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_lng
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_lng
+msgid "Longitude"
+msgstr "Longitude"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_lote_id
+msgid "Lotes asignados al proyecto"
+msgstr "Lotes asignados al proyecto"
+
+#. module: itsys_real_estate
+#: model:res.groups,name:itsys_real_estate.group_ownership_rental_contracts
+msgid "Manage Ownership/Rental Contracts"
+msgstr "Manage Ownership/Rental Contracts"
+
+#. module: itsys_real_estate
+#: model:res.groups,name:itsys_real_estate.group_payments
+msgid "Manage Payments"
+msgstr "Manage Payments"
+
+#. module: itsys_real_estate
+#: model:res.groups,name:itsys_real_estate.group_units_structure
+msgid "Manage Property Structre"
+msgstr "Manage Property Structre"
+
+#. module: itsys_real_estate
+#: model:res.groups,name:itsys_real_estate.group_reservation
+msgid "Manage Reservations"
+msgstr "Gestionar reservas"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_managerial_expenses_percent
+msgid "Managerial Expenses (%)"
+msgstr "Managerial Expenses (%)"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_managerial_expenses
+msgid "Managerial Expenses (Amt.)"
+msgstr "Managerial Expenses (Amt.)"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_account_me
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_default_me_account
+msgid "Managerial Expenses Account"
+msgstr "Managerial Expenses Account"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_map
+msgid "Map"
+msgstr "Map"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+msgid "Mobile:"
+msgstr "Móvil:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_duration_month
+msgid "Month"
+msgstr "Month"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_more_view_exclude
+msgid "More View Exclude"
+msgstr "More View Exclude"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.biztech_form_view_for_biz_product_images
+msgid "Multiple Image"
+msgstr "Multiple Image"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_product_template
+msgid "Multiple Images"
+msgstr "Multiple Images"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_website_config_settings_effects_inherit
+msgid "Multiple Property Image"
+msgstr "Multiple Property Image"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+msgid "My Contracts"
+msgstr "My Contracts"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_type_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_component_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_rs_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_name
+#: model:ir.ui.view,arch_db:itsys_real_estate.installment_template_form_view
+msgid "Name"
+msgstr "Nombre"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_building_area_net
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_building_area_net
+msgid "Net Area m²"
+msgstr "Net Area m²"
+
+#. module: itsys_real_estate
+#: selection:building,air_condition:0
+#: selection:product.template,air_condition:0
+msgid "None"
+msgstr "None"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_north
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_north
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_north
+msgid "Northen border by:"
+msgstr "Limita Norte con:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Northen border:"
+msgstr "Northen border:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_note_sales
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_note_sales
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_note_sales
+msgid "Note Sales Folder"
+msgstr "Note Sales Folder"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_note
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_note
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_note
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_base_pages_form
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+msgid "Notes"
+msgstr "Notas"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.menu_cust_notify_form_action
+msgid "Notifications"
+msgstr "Notifications"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.cust_notify_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.cust_notify_tree_view
+msgid "Notifications (Ownership Contracts)"
+msgstr "Notifications (Ownership Contracts)"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.cust_notify_rent_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.cust_notify_rent_tree_view
+msgid "Notifications (Rental Contracts)"
+msgstr "Notifications (Rental Contracts)"
+
+#. module: itsys_real_estate
+#: model:ir.actions.report,name:itsys_real_estate.report_unit_occupancy
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+msgid "Occupancy Rates"
+msgstr "Occupancy Rates"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.empty_units_menu
+msgid "Occupancy rates"
+msgstr "Occupancy rates"
+
+#. module: itsys_real_estate
+#: selection:building,usage:0 selection:product.template,usage:0
+msgid "Office"
+msgstr "Office"
+
+#. module: itsys_real_estate
+#: selection:building,heating_source:0
+#: selection:product.template,heating_source:0
+msgid "Oil"
+msgstr "Oil"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_old_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_old_building
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_old_building
+msgid "Old Building"
+msgstr "Old "
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_occupancy_check_region_ids
+msgid "Only selected Regions will be printed. Leave empty to print all Regions."
+msgstr "Only selected Regions will be printed. Leave empty to print all Regions."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_occupancy_check_unit_ids
+msgid "Only selected building unit will be printed. Leave empty to print all building unit."
+msgstr "Only selected building unit will be printed. Leave empty to print all building unit."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_occupancy_check_building_ids
+msgid "Only selected building will be printed. Leave empty to print all building."
+msgstr "Only selected building will be printed. Leave empty to print all building."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_occupancy_check_city_ids
+msgid "Only selected cities will be printed. Leave empty to print all cities."
+msgstr "Only selected cities will be printed. Leave empty to print all cities."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_due_payment_check_partner_ids
+#: model:ir.model.fields,help:itsys_real_estate.field_late_payment_check_partner_ids
+msgid "Only selected partners will be printed. Leave empty to print all partners."
+msgstr "Only selected partners will be printed. Leave empty to print all partners."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_salesperson_sales_check_user_ids
+msgid "Only selected salespersons will be printed. Leave empty to print all salesperson."
+msgstr "Only selected salespersons will be printed. Leave empty to print all salesperson."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_due_payment_unit_check_building_unit
+msgid "Only selected unit will be printed. Leave empty to print all unit."
+msgstr "Only selected unit will be printed. Leave empty to print all unit."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_late_payment_unit_check_building_unit
+msgid "Only selected units will be printed. Leave empty to print all units."
+msgstr "Only selected units will be printed. Leave empty to print all units."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_partner_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_partner_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_partner_id
+msgid "Owner"
+msgstr "Propietario"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_account_move_ownership_id
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+msgid "Ownership"
+msgstr "Ownership"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/unit_reservation.py:145
+#: code:addons/itsys_real_estate/models/unit_reservation.py:160
+#: model:ir.actions.act_window,name:itsys_real_estate.ownership_contract_form_action
+#: model:ir.actions.report,name:itsys_real_estate.report_ownership_contract_rs
+#: model:ir.model,name:itsys_real_estate.model_ownership_contract
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_contract
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_contract
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_contract_id
+#: model:ir.ui.menu,name:itsys_real_estate.menu_ownership_contract_form_action
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_tree_view
+#, python-format
+msgid "Ownership Contract"
+msgstr "Ownership Contract"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_report_ownership_contract_all
+#: model:ir.ui.menu,name:itsys_real_estate.menu_report_report_ownership_all
+msgid "Ownership Contract Analysis"
+msgstr "Ownership Contract Analysis"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_form_view
+msgid "Ownership Contract Data"
+msgstr "Ownership Contract Data"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+msgid "Ownership Contract#"
+msgstr "Ownership Contract#"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.cust_notify_form_action
+#: model:ir.ui.menu,name:itsys_real_estate.menu_cust_notify_form_action1
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Ownership Contracts"
+msgstr "Ownership Contracts"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_graph
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+msgid "Ownership Contracts Analysis"
+msgstr "Ownership Contracts Analysis"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_report_ownership_contract_bi
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_pivot
+msgid "Ownership Contracts Statistics"
+msgstr "Ownership Contracts Statistics"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.customer_payment_menu
+msgid "Ownership contracts"
+msgstr "Ownership contracts"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_paid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_paid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_paid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_paid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_paid
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Paid"
+msgstr "Pagado"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_paid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_paid
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Paid Amount"
+msgstr "Paid Amount"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_city_id
+msgid "Parent City"
+msgstr "Parent City"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_region_id
+msgid "Parent Region"
+msgstr "Parent Region"
+
+#. module: itsys_real_estate
+#: selection:building,usage:0 selection:product.template,usage:0
+msgid "Parking"
+msgstr "Parking"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_parking_place_rentable
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_parking_place_rentable
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_parking_place_rentable
+msgid "Parking rentable"
+msgstr "Parking rentable"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_building_parking_place_rentable
+#: model:ir.model.fields,help:itsys_real_estate.field_product_product_parking_place_rentable
+#: model:ir.model.fields,help:itsys_real_estate.field_product_template_parking_place_rentable
+msgid "Parking rentable in the location if available"
+msgstr "Parking rentable in the location if available"
+
+#. module: itsys_real_estate
+#: selection:building,air_condition:0
+#: selection:product.template,air_condition:0
+msgid "Partial"
+msgstr "Partial"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_partner
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_partner
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_contract_partner_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_contract_partner_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_contract_partner_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_partner_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_partner_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_partner_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_partner_id1
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_partner_id
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs_rent
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+msgid "Partner"
+msgstr "Cliente"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_to_be_paid
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_to_be_paid
+msgid "Pay"
+msgstr "Pay"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_amount
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_amount
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_amount
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_amount
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_amount
+msgid "Payment"
+msgstr "Pago"
+
+#. module: itsys_real_estate
+#: selection:sale.commission,contract_state:0
+msgid "Payment Based"
+msgstr "Payment Based"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_payment_method
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_refund_payment_method
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_payment_method
+msgid "Payment Method"
+msgstr "Método de pago"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_template_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_template_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_template_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_template_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_template_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_template_id
+msgid "Payment Template"
+msgstr "Plantilla de pago"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.real_estate_payment_menu
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: itsys_real_estate
+#: selection:building,heating_source:0
+#: selection:product.template,heating_source:0
+msgid "Pellets"
+msgstr "Pellets"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Penalties"
+msgstr "Multas tardías"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties_percent
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_default_penalty_percent
+msgid "Penalty Percentage"
+msgstr "Penalty Percentage"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_percent
+msgid "Percent"
+msgstr "Percent"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_interval_play
+#: model:ir.model.fields,field_description:itsys_real_estate.field_website_interval_play
+msgid "Play interval of slideshow"
+msgstr "Play interval of slideshow"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/mail_wizard.py:58
+#: code:addons/itsys_real_estate/wizard/mail_wizard.py:113
+#, python-format
+msgid "Please Provide Email for recepients! "
+msgstr "Please Provide Email for recepients! "
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/ownership_contract.py:231
+#: code:addons/itsys_real_estate/models/ownership_contract.py:364
+#: code:addons/itsys_real_estate/models/unit_reservation.py:193
+#, python-format
+msgid "Please select first payment date!"
+msgstr "¡Seleccione la primera fecha de pago!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/unit_release.py:94
+#, python-format
+msgid "Please set cash journal!"
+msgstr "Please set cash journal!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/late_payment_penalties.py:38
+#: code:addons/itsys_real_estate/wizard/realestate_pay.py:110
+#, python-format
+msgid "Please set default Discount Account!"
+msgstr "Please set default Discount Account!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/realestate_refund.py:73
+#, python-format
+msgid "Please set default Managerial Expenses Account!"
+msgstr "Please set default Managerial Expenses Account!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/late_payment_penalties.py:49
+#, python-format
+msgid "Please set default Penalty Percentage!"
+msgstr "Please set default Penalty Percentage!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/realestate_rental_pay.py:102
+#, python-format
+msgid "Please set discount account in module configuration!"
+msgstr "Please set discount account in module configuration!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/mail_wizard.py:55
+#: code:addons/itsys_real_estate/wizard/mail_wizard.py:110
+#, python-format
+msgid "Please set email format! "
+msgstr "Please set email format! "
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/ownership_contract.py:309
+#: code:addons/itsys_real_estate/models/ownership_contract.py:334
+#: code:addons/itsys_real_estate/models/rental_contract.py:168
+#: code:addons/itsys_real_estate/models/rental_contract.py:279
+#, python-format
+msgid "Please set income account for this contract!"
+msgstr "Please set income account for this contract!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/sms_wizard.py:41
+#, python-format
+msgid "Please set partner mobile number!"
+msgstr "Please set partner mobile number!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/realestate_pay.py:72
+#: code:addons/itsys_real_estate/wizard/realestate_refund.py:39
+#: code:addons/itsys_real_estate/wizard/realestate_refund.py:98
+#: code:addons/itsys_real_estate/wizard/realestate_rental_pay.py:70
+#, python-format
+msgid "Please set purchase accounting journal!"
+msgstr "Please set purchase accounting journal!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/realestate_pay.py:130
+#: code:addons/itsys_real_estate/wizard/realestate_pay.py:174
+#: code:addons/itsys_real_estate/wizard/realestate_rental_pay.py:127
+#: code:addons/itsys_real_estate/wizard/realestate_rental_pay.py:170
+#, python-format
+msgid "Please set receivable account for Partner"
+msgstr "Please set receivable account for Partner"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/ownership_contract.py:307
+#: code:addons/itsys_real_estate/models/ownership_contract.py:332
+#: code:addons/itsys_real_estate/models/rental_contract.py:166
+#: code:addons/itsys_real_estate/models/rental_contract.py:277
+#, python-format
+msgid "Please set receivable account for partner!"
+msgstr "Please set receivable account for partner!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/unit_release.py:91
+#, python-format
+msgid "Please set sale refund journal!"
+msgstr "Please set sale refund journal!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/ownership_contract.py:302
+#: code:addons/itsys_real_estate/models/ownership_contract.py:328
+#: code:addons/itsys_real_estate/models/rental_contract.py:161
+#: code:addons/itsys_real_estate/models/rental_contract.py:272
+#: code:addons/itsys_real_estate/wizard/realestate_pay.py:69
+#: code:addons/itsys_real_estate/wizard/realestate_rental_pay.py:67
+#, python-format
+msgid "Please set sales accounting journal!"
+msgstr "Please set sales accounting journal!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/rental_contract.py:281
+#, python-format
+msgid "Please set security deposit account for this contract!"
+msgstr "Please set security deposit account for this contract!"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_population_density
+#: model:ir.model.fields,field_description:itsys_real_estate.field_countries_population_density
+msgid "Population Density"
+msgstr "Population Density"
+
+#. module: itsys_real_estate
+#. openerp-web
+#: code:addons/itsys_real_estate/static/src/xml/image_multi.xml:38
+#, python-format
+msgid "Preview"
+msgstr "Preview"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_pricing
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_pricing
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_pricing
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_pricing
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_pricing
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_pricing
+msgid "Price"
+msgstr "Precio"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.due_payment_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.late_payment_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.late_payment_unit_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.occupancy_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.salesperson_sales_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_due_payment_units_report_view
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_product_tmpl_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_product_product_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_product_product_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_product_product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.website_multiple_image_product_slider
+msgid "Product Name"
+msgstr "Nombre del producto"
+
+#. module: itsys_real_estate
+#: model:website.menu,name:itsys_real_estate.menu_properties
+msgid "Properties"
+msgstr "Properties"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_is_property
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_is_property
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_contract_unit
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_contract_unit
+msgid "Property"
+msgstr "Property"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+msgid "Property Code"
+msgstr "Property Code"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+msgid "Property Multiple Images"
+msgstr "Property Multiple Images"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+msgid "Property Name"
+msgstr "Property Name"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Property Refunds"
+msgstr "Property Refunds"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_unit_release
+msgid "Property Release"
+msgstr "Property Release"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_unit_reservation
+msgid "Property Reservation"
+msgstr "Reserva de propiedad"
+
+#. module: itsys_real_estate
+#: model:mail.message.subtype,description:itsys_real_estate.rs_unit_reserved
+#: model:mail.message.subtype,name:itsys_real_estate.rs_unit_reserved
+msgid "Property Reserved"
+msgstr "Property Reserved"
+
+#. module: itsys_real_estate
+#: model:mail.message.subtype,description:itsys_real_estate.rs_unit_sold
+#: model:mail.message.subtype,name:itsys_real_estate.rs_unit_sold
+msgid "Property Sold"
+msgstr "Property Sold"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Prout prout prout"
+msgstr "Prout prout prout"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.menu_building_list
+msgid "Proyectos Inmobiliarios"
+msgstr "Proyectos Inmobiliarios"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_partner_from
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_partner_from
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_partner_from
+msgid "Purchase Date"
+msgstr "Fecha de compra"
+
+#. module: itsys_real_estate
+#: model:ir.actions.report,name:itsys_real_estate.report_quittance_letter_rs
+msgid "Quittance Letter"
+msgstr "Quittance Letter"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+msgid "Quittance Letter #"
+msgstr "Quittance Letter #"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.sale_commission_form
+msgid "Rates definition"
+msgstr "Rates definition"
+
+#. module: itsys_real_estate
+#: model:ir.module.category,name:itsys_real_estate.module_real_estate_category
+#: model:ir.ui.menu,name:itsys_real_estate.menu_itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_form
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_list_web
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Real Estate"
+msgstr "Real Estate"
+
+#. module: itsys_real_estate
+#: model:res.groups,name:itsys_real_estate.group_real_estate_admin
+msgid "Real Estate Admin"
+msgstr "Real Estate Admin"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_account_bank_statement_real_estate_ref
+#: model:ir.model.fields,field_description:itsys_real_estate.field_account_voucher_real_estate_ref
+msgid "Real Estate Ref."
+msgstr "Real Estate Ref."
+
+#. module: itsys_real_estate
+#: model:res.groups,name:itsys_real_estate.group_real_estate_reports
+msgid "Real Estate Reports"
+msgstr "Real Estate Reports"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/ownership_contract.py:133
+#: code:addons/itsys_real_estate/models/rental_contract.py:117
+#, python-format
+msgid "Receipts"
+msgstr "Receipts"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_cheque_number
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_refund_form_view
+msgid "Refund"
+msgstr "Refund"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_regions
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_region_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_penalties_region
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_contract_region
+#: model:ir.model.fields,field_description:itsys_real_estate.field_occupancy_check_region_ids
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_region
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_region_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_region_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_region
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_contract_region
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_contract_region
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_region_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_region
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+msgid "Region"
+msgstr "Region"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.regions_form_action
+#: model:ir.ui.menu,name:itsys_real_estate.menu_regions_form_action
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_regions_search
+msgid "Regions"
+msgstr "Proyectos"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_payment_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_rental_payment_form_view
+msgid "Register Payment"
+msgstr "Registrar pago"
+
+#. module: itsys_real_estate
+#: model:ir.actions.report,name:itsys_real_estate.report_release_contract_rs
+msgid "Release Contract"
+msgstr "Release Contract"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+msgid "Release Contract#"
+msgstr "Release Contract#"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_release_form_view
+msgid "Release Data"
+msgstr "Release Data"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+msgid "Release from:"
+msgstr "Release from:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+msgid "Release to:"
+msgstr "Release to:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_partner_id2
+msgid "Release to: "
+msgstr "Release to: "
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_rental_renew_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+msgid "Renew Contract"
+msgstr "Renew Contract"
+
+#. module: itsys_real_estate
+#: selection:rental.contract,state:0
+msgid "Renewed"
+msgstr "Renewed"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_account_move_rental_id
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+msgid "Rental"
+msgstr "Rental"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/rental_contract_renewal.py:24
+#: model:ir.actions.act_window,name:itsys_real_estate.rental_contract_form_action
+#: model:ir.actions.report,name:itsys_real_estate.report_rental_contract_rs
+#: model:ir.model,name:itsys_real_estate.model_rental_contract
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_contract
+#: model:ir.ui.menu,name:itsys_real_estate.menu_rental_contract_form_action
+#, python-format
+msgid "Rental Contract"
+msgstr "Rental Contract"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+msgid "Rental Contract #"
+msgstr "Rental Contract #"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_report_rental_contract_all
+#: model:ir.ui.menu,name:itsys_real_estate.menu_report_report_rental_all
+msgid "Rental Contract Analysis"
+msgstr "Rental Contract Analysis"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+msgid "Rental Contract Data"
+msgstr "Rental Contract Data"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.cust_notify_rent_form_action
+#: model:ir.ui.menu,name:itsys_real_estate.menu_cust_notify_rent_form_action
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Rental Contracts"
+msgstr "Rental Contracts"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_prental_contract_graph
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_prental_contract_pivot
+msgid "Rental Contracts Analysis"
+msgstr "Rental Contracts Analysis"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_customer_rental_payment_check
+msgid "Rental Contracts Payment"
+msgstr "Rental Contracts Payment"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_customer_rental_renew_check
+msgid "Rental Contracts Renewal"
+msgstr "Rental Contracts Renewal"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_report_rental_contract_bi
+msgid "Rental Contracts Statistics"
+msgstr "Rental Contracts Statistics"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/rental_contract.py:340
+#: code:addons/itsys_real_estate/models/rental_contract.py:345
+#: code:addons/itsys_real_estate/models/rental_contract.py:352
+#: code:addons/itsys_real_estate/models/rental_contract.py:357
+#, python-format
+msgid "Rental Fee"
+msgstr "Rental Fee"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.menu_rental_pay_form_action
+msgid "Rental contracts"
+msgstr "Rental contracts"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_rental_fee
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_rental_fee
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_rental_fee
+msgid "Rental fee"
+msgstr "Rental fee"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_repetition_rate
+msgid "Repetition Rate (month)"
+msgstr "Repetition Rate (month)"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_payment_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_refund_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_rental_payment_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.customer_rental_renew_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.due_payment_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.late_payment_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.late_payment_unit_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.occupancy_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.salesperson_sales_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_due_payment_units_report_view
+msgid "Report Options"
+msgstr "Opciones del informe"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.real_estate_report_menu
+msgid "Reports"
+msgstr "Informes"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.salesperson_sales
+msgid "Representatives Sales"
+msgstr "Representatives Sales"
+
+#. module: itsys_real_estate
+#: selection:product.template,state:0
+msgid "Reservado"
+msgstr "Reservado"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/building_unit.py:38
+#: model:ir.actions.report,name:itsys_real_estate.report_reservation_rs
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_reservation_id
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+#, python-format
+msgid "Reservation"
+msgstr "Reserva"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Reservation #"
+msgstr "Reservación #"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_reservation_count
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_reservation_count
+msgid "Reservation Count"
+msgstr "Reservación Count"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_reservation_form_view
+msgid "Reservation Data"
+msgstr "Datos de reserva"
+
+#. module: itsys_real_estate
+#: sql_constraint:unit.reservation:0
+msgid "Reservation Number record must be unique !"
+msgstr "¡El registro del número de reserva debe ser único!"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_form
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Reservations"
+msgstr "Reservaciones"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+msgid "Reserved"
+msgstr "Reservado"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.menu_reservation_main
+msgid "Resevations"
+msgstr "Reservaciones"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_user_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_user_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_user_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_user_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_user_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_user_id
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_filter
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: itsys_real_estate
+#: selection:website,thumbnail_panel_position:0
+msgid "Right"
+msgstr "Right"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_parent_right
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_parent_right
+msgid "Right Parent"
+msgstr "Padre derecho"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_rooms
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_rooms
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_rooms
+msgid "Rooms"
+msgstr "Rooms"
+
+#. module: itsys_real_estate
+#: selection:building,usage:0 selection:product.template,usage:0
+msgid "Rural Property"
+msgstr "Rural Property"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_tv_sat
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_tv_sat
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_tv_sat
+msgid "SAT TV"
+msgstr "SAT TV"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_company_id_number
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_partner_ss_number
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_users_ss_number
+msgid "SSN"
+msgstr "Identificación nacional"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_partner_to
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_partner_to
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_partner_to
+msgid "Sale Date"
+msgstr "Fecha de venta"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_team_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_team_id
+msgid "Sales Channel"
+msgstr "Canal de ventas"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Sales Person"
+msgstr "Sales Person"
+
+#. module: itsys_real_estate
+#: model:ir.actions.report,name:itsys_real_estate.report_sales_rep_rs
+msgid "Sales Representatives"
+msgstr "Sales Representatives"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_sales_team
+#: selection:sale.commission,apply_to:0
+msgid "Sales Team"
+msgstr "Sales Team"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.sale_commission_form
+msgid "Sales representatives"
+msgstr "Sales representatives"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_commission_line_salesman
+#: selection:sale.commission,apply_to:0
+msgid "Salesman"
+msgstr "Vendedor"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Salesman:"
+msgstr "Salesman:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_salesmen
+msgid "Salesmen"
+msgstr "Salesmen"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check_user_ids
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+msgid "Salesperson"
+msgstr "Comercial"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_salesperson_sales_check
+msgid "Salesperson Sales"
+msgstr "Salesperson Sales"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Second Party:"
+msgstr "Second Party:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_sections
+msgid "Sections"
+msgstr "Sections"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_account_security_deposit
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_default_security_deposit_account
+msgid "Security Deposit Account"
+msgstr "Security Deposit Account"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_payment_check_select_all
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_select_all
+msgid "Select all"
+msgstr "Select all"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_res_config_settings_thumbnail_panel_position
+#: model:ir.model.fields,help:itsys_real_estate.field_website_thumbnail_panel_position
+msgid "Select the position where you want to display the thumbnail panel in multi image."
+msgstr "Select the position where you want to display the thumbnail panel in multi image."
+
+#. module: itsys_real_estate
+#: model:ir.actions.server,name:itsys_real_estate.action_send_multi_installments
+msgid "Send Reminder Mail"
+msgstr "Send Reminder Mail"
+
+#. module: itsys_real_estate
+#: model:res.groups,name:itsys_real_estate.group_notification_control
+msgid "Send notifications to clients"
+msgstr "Send notifications to clients"
+
+#. module: itsys_real_estate
+#: selection:website,color_opt_thumbnail:0
+msgid "Sepia"
+msgstr "Sepia"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_sequence
+msgid "Sequ."
+msgstr "Sequ."
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Set default Income Account for properties"
+msgstr "Set default Income Account for properties"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Set default Security Deposit for properties"
+msgstr "Set default Security Deposit for properties"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Set default discount account for properties"
+msgstr "Set default discount account for properties"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Set default penalty account for properties"
+msgstr "Set default penalty account for properties"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Set here managerial expenses account used in properties refund"
+msgstr "Set here managerial expenses account used in properties refund"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.res_config_settings_view_form
+msgid "Set here number of hours to release units reservation"
+msgstr "Establezca aquí el número de horas para liberar la reserva de unidades"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.action_real_estate_config
+#: model:ir.ui.menu,name:itsys_real_estate.menu_real_estate_config
+#: model:ir.ui.menu,name:itsys_real_estate.menu_settings
+msgid "Settings"
+msgstr "Ajustes"
+
+#. module: itsys_real_estate
+#: selection:building,usage:0 selection:product.template,usage:0
+msgid "Shop"
+msgstr "Shop"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_no_extra_options
+#: model:ir.model.fields,field_description:itsys_real_estate.field_website_no_extra_options
+msgid "Slider effects"
+msgstr "Slider effects"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_res_config_settings_no_extra_options
+#: model:ir.model.fields,help:itsys_real_estate.field_website_no_extra_options
+msgid "Slider with all options for next, previous, play, pause, fullscreen, hide/show thumbnail panel."
+msgstr "Slider with all options for next, previous, play, pause, fullscreen, hide/show thumbnail panel."
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_solar_electric
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_solar_electric
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_solar_electric
+msgid "Solar Electric System"
+msgstr "Solar Electric System"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_solar_heating
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_solar_heating
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_solar_heating
+msgid "Solar Heating System"
+msgstr "Solar Heating System"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+msgid "Sold"
+msgstr "Sold"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_sort
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_sort
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_sort
+msgid "Sort"
+msgstr "Ordenar"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_sequence
+msgid "Sort Order"
+msgstr "Sort Order"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_origin
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_origin
+msgid "Source Document"
+msgstr "Documento origen"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_south
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_south
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_south
+msgid "Southern border by:"
+msgstr "Limita Sur con:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Southern border:"
+msgstr "Southern border:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_staircase
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_staircase
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_staircase
+msgid "Staircase"
+msgstr "Staircase"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_desc_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_status_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_state
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_state
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_state
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_state
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_state
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_ownership_contract_bi_state
+#: model:ir.model.fields,field_description:itsys_real_estate.field_report_rental_contract_bi_state
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_release_state
+#: model:ir.model.fields,field_description:itsys_real_estate.field_unit_reservation_state
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_filter
+msgid "State"
+msgstr "Estado"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_status
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_unit_status2
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_unit_status2
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+msgid "Status"
+msgstr "Estado"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Status:"
+msgstr "Status:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_surface
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_surface
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_surface
+msgid "Surface"
+msgstr "Surface"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_lease_target
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_lease_target
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_lease_target
+msgid "Target Lease"
+msgstr "Target Lease"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_telephon
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_telephon
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_telephon
+msgid "Telephon"
+msgstr "Telephon"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_customer_rental_payment_check_partner
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_partner_id
+msgid "Tenant"
+msgstr "Tenant"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+msgid "Tenant:"
+msgstr "Tenant:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_terrace
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_terrace
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_terrace
+msgid "Terraces m²"
+msgstr "Terraces m²"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_regions_terreno_id
+msgid "Terrenos  asignados al proyecto"
+msgstr "Terrenos  asignados al proyecto"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/commission.py:54
+#, python-format
+msgid "The lower limit cannot be greater than upper one."
+msgstr "The lower limit cannot be greater than upper one."
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "This Agreement is made by and between:"
+msgstr "This Agreement is made by and between:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_ownership_contract_search
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+msgid "This Year"
+msgstr "Este Año"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.website_multiple_image_product_slider
+msgid "This combination does not exist."
+msgstr "Esta combinación no existe."
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+msgid "This release is between:"
+msgstr "This release is between:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_thumb_height
+#: model:ir.model.fields,field_description:itsys_real_estate.field_website_thumb_height
+msgid "Thumb height"
+msgstr "Thumb height"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_thumb_width
+#: model:ir.model.fields,field_description:itsys_real_estate.field_website_thumb_width
+msgid "Thumb width"
+msgstr "Thumb width"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_color_opt_thumbnail
+#: model:ir.model.fields,field_description:itsys_real_estate.field_website_color_opt_thumbnail
+msgid "Thumbnail overlay effects"
+msgstr "Thumbnail overlay effects"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_res_config_settings_thumbnail_panel_position
+#: model:ir.model.fields,field_description:itsys_real_estate.field_website_thumbnail_panel_position
+msgid "Thumbnails panel position"
+msgstr "Thumbnails panel position"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_name
+msgid "Title"
+msgstr "Título"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_check_date_end
+#: model:ir.model.fields,field_description:itsys_real_estate.field_due_payment_unit_check_date_end
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_check_date_end
+#: model:ir.model.fields,field_description:itsys_real_estate.field_late_payment_unit_check_date_end
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_section_amount_to
+#: model:ir.model.fields,field_description:itsys_real_estate.field_salesperson_sales_check_date_to
+msgid "To"
+msgstr "Para"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_date_to
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_renewal_date_to
+msgid "To Date"
+msgstr "To Date"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+msgid "To:"
+msgstr "To:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs_rent
+msgid "Today"
+msgstr "Hoy"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.building_act1_web
+msgid "Top (Test)"
+msgstr "Top (Test)"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs_rent
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_filter
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_filter
+msgid "Top Search"
+msgstr "Top Search"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_amount_total
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+msgid "Total"
+msgstr "Total"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_total_amount
+msgid "Total Amount"
+msgstr "Total Amount"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_list_web
+msgid "Total Surface"
+msgstr "Total Surface"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Totals"
+msgstr "Totals"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_attach_type
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_type_name
+#: model:ir.model.fields,field_description:itsys_real_estate.field_cities_type
+#: model:ir.model.fields,field_description:itsys_real_estate.field_sale_commission_commission_type
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Type"
+msgstr "Tipo"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Type:"
+msgstr "Tipo:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_url
+msgid "URL"
+msgstr "Enlace web"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_latlng_line_unit_id
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_loan_line_rs_rent
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_customers
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_occupancy
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_sales_rep
+msgid "Unit"
+msgstr "Unit"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.unit_reservation_form_action
+msgid "Unit Reservation"
+msgstr "Lotes Reservación"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Unit Specifications:"
+msgstr "Unit Specifications:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_status
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_status
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_unit_filter
+msgid "Unit Status"
+msgstr "Estado del Lote"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Unit:"
+msgstr "Unit:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_due_payments_units
+msgid "Units Due Payments"
+msgstr "Units Due Payments"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_late_payments_units
+msgid "Units Late Payments"
+msgstr "Units Late Payments"
+
+#. module: itsys_real_estate
+#: model:ir.ui.menu,name:itsys_real_estate.customer_refund_menu
+msgid "Units Refund"
+msgstr "Units Refund"
+
+#. module: itsys_real_estate
+#: model:ir.actions.act_window,name:itsys_real_estate.unit_release_form_action
+#: model:ir.ui.menu,name:itsys_real_estate.menu_release_main
+msgid "Units Release"
+msgstr "Units Release"
+
+#. module: itsys_real_estate
+#: selection:building,air_condition:0
+#: selection:product.template,air_condition:0
+msgid "Unknown"
+msgstr "Unknown"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.loan_line_rs_own_calendar_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.loan_line_rs_rent_calendar_view
+msgid "Unpaid Installments"
+msgstr "Unpaid Installments"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_usage
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_usage
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_usage
+msgid "Usage"
+msgstr "Uso"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_own_contract_user_id
+msgid "User"
+msgstr "Usuario"
+
+#. module: itsys_real_estate
+#: selection:product.template,state:0
+msgid "Vendido"
+msgstr "Vendido"
+
+#. module: itsys_real_estate
+#: selection:biztech.product.images,attach_type:0
+msgid "Video"
+msgstr "Video"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_video_id
+msgid "Video ID"
+msgstr "Video ID"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_video_mp4
+msgid "Video MP4"
+msgstr "Video MP4"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_video_ogv
+msgid "Video OGV"
+msgstr "Video OGV"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_video_webm
+msgid "Video WEBM"
+msgstr "Video WEBM"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_biztech_product_images_video_type
+msgid "Video media player"
+msgstr "Video media player"
+
+#. module: itsys_real_estate
+#: selection:biztech.product.images,video_type:0
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_ownership_contract_voucher_count
+#: model:ir.model.fields,field_description:itsys_real_estate.field_rental_contract_voucher_count
+msgid "Voucher Count"
+msgstr "Voucher Count"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_account_voucher_line
+msgid "Voucher Lines"
+msgstr "Voucher Lines"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/realestate_pay.py:150
+#: code:addons/itsys_real_estate/wizard/realestate_refund.py:104
+#: code:addons/itsys_real_estate/wizard/realestate_rental_pay.py:146
+#: model:ir.ui.view,arch_db:itsys_real_estate.ownership_contract_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+#, python-format
+msgid "Vouchers"
+msgstr "Vouchers"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Water Meter:"
+msgstr "Water Meter:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_water_meter
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_water_meter
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_water_meter
+msgid "Water meter"
+msgstr "Water meter"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_website
+msgid "Website"
+msgstr "Website"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_url
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_url
+msgid "Website URL"
+msgstr "URL del sitio web"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_product_west
+#: model:ir.model.fields,field_description:itsys_real_estate.field_product_template_west
+msgid "Western border by:"
+msgstr "Limita Occidente con:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_building_west
+msgid "Western border by: "
+msgstr "Limita Occidente con:"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_ownership_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_quittance_letter_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_release_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_rental_contract_document
+#: model:ir.ui.view,arch_db:itsys_real_estate.report_reservation_document
+msgid "Western border:"
+msgstr "Western border:"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,help:itsys_real_estate.field_res_config_settings_interval_play
+#: model:ir.model.fields,help:itsys_real_estate.field_website_interval_play
+msgid "With this field you can set the interval play time between two images."
+msgstr "With this field you can set the interval play time between two images."
+
+#. module: itsys_real_estate
+#: selection:building,heating_source:0
+#: selection:product.template,heating_source:0
+msgid "Wood"
+msgstr "Wood"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_installment_template_duration_year
+msgid "Year"
+msgstr "Year"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/wizard/realestate_refund.py:90
+#, python-format
+msgid "You can just cancel contract, no payments to refund!"
+msgstr "You can just cancel contract, no payments to refund!"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/ownership_contract.py:123
+#: code:addons/itsys_real_estate/models/rental_contract.py:107
+#, python-format
+msgid "You can not delete a contract not in draft state"
+msgstr "You can not delete a contract not in draft state"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/unit_reservation.py:77
+#, python-format
+msgid "You can not delete a reservation not in draft state"
+msgstr "No se puede eliminar una reserva que no esté en estado de borrador"
+
+#. module: itsys_real_estate
+#: code:addons/itsys_real_estate/models/unit_release.py:65
+#, python-format
+msgid "You can not delete the release as it is not in draft state"
+msgstr "You can not delete the release as it is not in draft state"
+
+#. module: itsys_real_estate
+#: selection:biztech.product.images,video_type:0
+msgid "Youtube"
+msgstr "Youtube"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_building_desc
+msgid "building description"
+msgstr "Terreno Descripción"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_building_status
+msgid "building state"
+msgstr "building state"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_building_type
+msgid "building type"
+msgstr "building type"
+
+#. module: itsys_real_estate
+#: selection:building,heating:0 selection:product.template,heating:0
+msgid "central heating"
+msgstr "central heating"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_cities_type
+#: model:ir.ui.view,arch_db:itsys_real_estate.cities_type_tree_view
+msgid "cities.type"
+msgstr "cities.type"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_component
+#: model:ir.ui.view,arch_db:itsys_real_estate.component_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.component_tree_view
+msgid "component"
+msgstr "component"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_components_line
+msgid "components.line"
+msgstr "components.line"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.countries_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.countries_tree_view
+msgid "countries"
+msgstr "countries"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_customer_payment_check
+msgid "customer.payment.check"
+msgstr "customer.payment.check"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_customer_payment_refund
+msgid "customer.payment.refund"
+msgstr "customer.payment.refund"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_customer_payment_rs
+msgid "customer.payment.rs"
+msgstr "customer.payment.rs"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_customer_rental_payment_check
+msgid "customer.rental.payment.check"
+msgstr "customer.rental.payment.check"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_due_payment_check
+msgid "due.payment.check"
+msgstr "due.payment.check"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_due_payment_unit_check
+msgid "due.payment.unit.check"
+msgstr "due.payment.unit.check"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_furniture
+msgid "furniture"
+msgstr "furniture"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_gmap_config
+msgid "gmap.config"
+msgstr "gmap.config"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_rent_wizard_installment_line_id
+#: model:ir.model.fields,field_description:itsys_real_estate.field_loan_line_rs_wizard_installment_line_id
+msgid "id "
+msgstr "id "
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.installment_template_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.installment_template_tree_view
+msgid "installment template"
+msgstr "installment template"
+
+#. module: itsys_real_estate
+#: model:ir.model.fields,field_description:itsys_real_estate.field_account_voucher_line_installment_line_id
+msgid "installment_line_id."
+msgstr "installment_line_id."
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.building_form
+msgid "invisible"
+msgstr "invisible"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_late_payment_check
+msgid "late.payment.check"
+msgstr "late.payment.check"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_late_payment_penalties
+msgid "late.payment.penalties"
+msgstr "late.payment.penalties"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_late_payment_unit_check
+msgid "late.payment.unit.check"
+msgstr "late.payment.unit.check"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_latlng_line
+msgid "latlng.line"
+msgstr "latlng.line"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_loan_line_rs
+msgid "loan.line.rs"
+msgstr "loan.line.rs"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_loan_line_rs_own
+msgid "loan.line.rs.own"
+msgstr "loan.line.rs.own"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_loan_line_rs_rent
+msgid "loan.line.rs.rent"
+msgstr "loan.line.rs.rent"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_loan_line_rs_rent_wizard
+msgid "loan.line.rs.rent.wizard"
+msgstr "loan.line.rs.rent.wizard"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_loan_line_rs_wizard
+msgid "loan.line.rs.wizard"
+msgstr "loan.line.rs.wizard"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_mail_wizard
+msgid "mail.wizard"
+msgstr "mail.wizard"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_mail_wizard_rent
+msgid "mail.wizard.rent"
+msgstr "mail.wizard.rent"
+
+#. module: itsys_real_estate
+#: selection:building,heating:0 selection:product.template,heating:0
+msgid "none"
+msgstr "none"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_occupancy_check
+msgid "occupancy.check"
+msgstr "occupancy.check"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.due_payment_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.late_payment_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.late_payment_unit_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.occupancy_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.salesperson_sales_report_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.unit_due_payment_units_report_view
+msgid "or"
+msgstr "or"
+
+#. module: itsys_real_estate
+#: sql_constraint:product.template:0
+msgid "property code must be unique!"
+msgstr "property code must be unique!"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.regions_form_view
+#: model:ir.ui.view,arch_db:itsys_real_estate.regions_tree_view
+msgid "regions"
+msgstr "Proyectos"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_form_view
+msgid "rental Contract"
+msgstr "rental Contract"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.rental_contract_tree_view
+msgid "rental Contract Reservation"
+msgstr "Reserva de contrato de alquiler"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.view_report_rental_contract_search
+msgid "rental Contracts Analysis"
+msgstr "rental Contracts Analysis"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_rental_contract_renewal
+msgid "rental.contract.renewal"
+msgstr "rental.contract.renewal"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_report_itsys_real_estate_report_due_payments_customers
+msgid "report.itsys_real_estate.report_due_payments_customers"
+msgstr "report.itsys_real_estate.report_due_payments_customers"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_report_itsys_real_estate_report_due_payments_units
+msgid "report.itsys_real_estate.report_due_payments_units"
+msgstr "report.itsys_real_estate.report_due_payments_units"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_report_itsys_real_estate_report_late_payments_customers
+msgid "report.itsys_real_estate.report_late_payments_customers"
+msgstr "report.itsys_real_estate.report_late_payments_customers"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_report_itsys_real_estate_report_late_payments_units
+msgid "report.itsys_real_estate.report_late_payments_units"
+msgstr "report.itsys_real_estate.report_late_payments_units"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_report_itsys_real_estate_report_occupancy
+msgid "report.itsys_real_estate.report_occupancy"
+msgstr "report.itsys_real_estate.report_occupancy"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_report_itsys_real_estate_report_sales_rep
+msgid "report.itsys_real_estate.report_sales_rep"
+msgstr "report.itsys_real_estate.report_sales_rep"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_salesperson_sales_check
+msgid "salesperson.sales.check"
+msgstr "salesperson.sales.check"
+
+#. module: itsys_real_estate
+#: model:ir.ui.view,arch_db:itsys_real_estate.sale_commission_form
+msgid "sections"
+msgstr "sections"
+
+#. module: itsys_real_estate
+#: selection:building,heating:0 selection:product.template,heating:0
+msgid "self-contained central heating"
+msgstr "self-contained central heating"
+
+#. module: itsys_real_estate
+#: model:ir.model,name:itsys_real_estate.model_sms_wizard
+msgid "sms.wizard"
+msgstr "sms.wizard"
+
+#. module: itsys_real_estate
+#: selection:building,heating:0 selection:product.template,heating:0
+msgid "stove"
+msgstr "stove"
+
+#. module: itsys_real_estate
+#: selection:building,heating:0 selection:product.template,heating:0
+msgid "tiled stove"
+msgstr "tiled stove"
+
+#. module: itsys_real_estate
+#: selection:building,heating:0 selection:building,heating_source:0
+#: selection:product.template,heating:0
+#: selection:product.template,heating_source:0
+msgid "unknown"
+msgstr "unknown"
+
+#. module: itsys_real_estate
+#: selection:building,usage:0 selection:product.template,usage:0
+msgid "unlimited"
+msgstr "unlimited"
