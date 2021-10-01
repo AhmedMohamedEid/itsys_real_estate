@@ -111,9 +111,9 @@
                     <field name="country_id"/>
                     <field name="partner_id"/>
                     <field name="land_area"/>
+                    <field name="building_area"/>
                     <field name="garage"/>
-                    <!--<field name="building_area"/>-->
-                    <field name="constructed"/>
+                <!--<field name="constructed"/>-->
                     <field name="lift"/>
                 </tree>
             </field>

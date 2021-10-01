@@ -79,7 +79,7 @@ class regions(models.Model):
     city_id= fields.Many2one('cities','City', )
     terreno_id= fields.One2many('building','region_id','Terrenos  asignados al proyecto',)
     lote_id= fields.One2many('product.template','region_id','Lotes asignados al proyecto',)
-    area = fields.Integer(compute='_compute_area', string='Area', store=True)
+    area = fields.Integer(compute='_compute_area', string='Area')
     land_area = fields.Integer('Land Area m²')
     pricing = fields.Integer(compute="_compute_price", string='Price', store=True)
    # lotes_id= fields.One2many('product.template','regions','Lotes',)
