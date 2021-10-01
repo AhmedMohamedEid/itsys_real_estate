@@ -27,7 +27,7 @@
                             <field name="region_id"/>
                         </group>
                         <group>
-                            <field name="area"/>
+                            <field name="area" readonly="0"/>
                             <field name="land_area"/>
                             <field name="pricing"/>
                         </group>
